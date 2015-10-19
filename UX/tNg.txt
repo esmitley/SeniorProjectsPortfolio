@@ -1,0 +1,101 @@
+public_html/dgm4310
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.php</title>
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Reset-default -->
+<link href="Reset.css" rel="stylesheet" type="text/css">
+<!-- phone-default -->
+<link href="phone.css" rel="stylesheet" type="text/css">
+<!-- enhance-tablet -->
+<link href="tablet.css" rel="stylesheet" type="text/css">
+<!-- enhance-desktop -->
+<link href="desktop.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+body {
+	margin-bottom: 0px;
+}
+</style>
+<link href="cssT.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<container>
+<header>
+	 <img src="E-H.png" alt="EH logo" >
+     <hgroup>
+    <h1> Tales N Gardens</h1>
+    <h2>Welcome Family and Friends</h2>
+  </hgroup>
+    <div class="keepOpen"></div><!-- keepOpen-->
+</header>
+<nav>
+   <ul>    <li><a href="#">Life n Liberty</a></li>
+		   <li><a href="#">What's New</a></li>
+		   <li><a href="#">4D Travel</a></li>
+            <li><a href="#">Who's Who</a></li>
+             <li><a href="#">Gram's Garden</a></li>
+              <li><a href="#">Grampa's Tales</a></li>
+  </ul>
+    <div class="keepOpen"></div><!-- keepOpen-->
+</nav>
+    
+    
+<div id="content">
+<figure class="w100">
+<img src="flowering-woods.jpg" alt="woods with purple flowers" height="97">
+</figure>
+<h1>People and Places</h1>
+<article>
+<p>
+  <figure class="w"> <img src="wild gate.jpeg" alt="gate to woodland garden" height="139">
+  </figure>
+</p>
+<p>ndrerit; dolor ligula suscipit justo, sit amet pellentesque quam sapien vel est. Donec faucibus odio non ligula volutpat eget tristique erat ornare. Praesent non lectus nibh, id congue libero. Donec id sem eu nibh auctor faucibus faucibus vel ante.</p>
+  <div class="keepOpen"></div><!-- keepOpen-->
+ </article>
+ 
+ 
+<div class="row">
+<article class="tales">
+<h2>Tales</h2>
+<h3>One day. . .</h3>
+<p>Pen vel est.tempor eu blandit quis, dapibus laoreet nisi. Cras fermentum, nunc ac rutrum congue, lorem urna placerat mi, vel consequat tortor magna a dui! Duis fringilla, neque ac scelerisque mollis, augue sapien consequat sem, eu ultricies turpis augue vel justo. Aenean condimentum, enim id aliquet placerat, libero ante iaculis purus, vitae bibendum arcu est non elit.
+
+Phasellus dapibus, magna eget porttitor vehicula, est purus fringilla justo, vel ornare dui risus tristique erat. Aenean viverra nisl vitae nisl varius dignissim. Suspendisse potenti. Aliquam est felis, adipiscing a posuere non, aliquet in leo? Integer laoreet vulputate diam non ultricies. Ut malesuada interdum urna nec vulputate. Nullam aliquet tincidunt ullamcorper. Ut imperdiet sollicitudin hendrerit. Donec iaculis; turpis sodales feugiat hendrerit; dolor ligula suscipit justo, sit am </p>
+
+<h3>Gardens </h3>
+<p>Magna e sollicitudin hendrerit.tempor eu blandit quis, dapibus laoreet nisi. Cras fermentum, nunc ac rutrum congue, lorem urna placerat mi, vel consequat tortor magna a dui! Duis fringilla, neque ac scelerisque mollis, augue sapien consequat sem, eu ultricies turpis augue vel justo. Aenean condimentum, enim id aliquet placerat, libero ante iaculis purus, vitae bibendum arcu est non elit.
+
+Phasellus dapibus, magna eget porttitor vehicula, est purus fringilla justo, vel ornare dui risus tristique erat. Aenean viverra nisl vitae nisl varius dignissim. Suspendisse potenti. Aliquam est felis, adipiscing a posuere non, aliquet in leo? Integer laoreet vulputate diam non ultricies. Ut malesuada interdum urna nec vulputate. Nullam aliquet tincidunt ullamcorper. Ut imperdiet sollicitudin hendrerit. Donec iaculis; turpis sodales feugiat hendrerit; dolor ligula suscipit justo, sit am </p>
+</article>
+
+
+<article class="gardens">
+<h2>Gram's Garden</h2>
+<h3>A special place. . .</h3>
+<p>Ultricies.tempor eu blandit quis, dapibus laoreet nisi. Cras fermentum, nunc ac rutrum congue, lorem urna placerat mi, vel consequat tortor magna a dui! Duis fringilla, neque ac scelerisque mollis, augue sapien consequat sem, eu ultricies turpis augue vel justo. Aenean condimentum, enim id aliquet placerat, libero ante iaculis purus, vitae bibendum arcu est non elit.
+
+Phasellus dapibus, magna eget porttitor vehicula, est purus fringilla justo, vel ornare dui risus tristique erat. Aenean viverra nisl vitae nisl varius dignissim. Suspendisse potenti. Aliquam est felis, adipiscing a posuere non, aliquet in leo? Integer laoreet vulputate diam non ultricies. Ut malesuada interdum urna nec vulputate. Nullam aliquet tincidunt ullamcorper. Ut imperdiet sollicitudin hendrerit. Donec iaculis; turpis sodales feugiat hendrerit; dolor ligula suscipit justo, sit am </p>
+<h3>Use </h3>
+<p>Est hendrerit.tempor eu blandit quis, dapibus laoreet nisi. Cras fermentum, nunc ac rutrum congue, lorem urna placerat mi, vel consequat tortor magna a dui! Duis fringilla, neque ac scelerisque mollis, augue sapien consequat sem, eu ultricies turpis augue vel justo. Aenean condimentum, enim id aliquet placerat, libero ante iaculis purus, vitae bibendum arcu est non elit.
+
+Phasellus dapibus, magna eget porttitor vehicula, est purus fringilla justo, vel ornare dui risus tristique erat. Aenean viverra nisl vitae nisl varius dignissim. Suspendisse potenti. Aliquam est felis, adipiscing a posuere non, aliquet in leo? Integer laoreet vulputate diam non ultricies. Ut malesuada interdum urna nec vulputate. Nullam aliquet tincidunt ullamcorper. Ut imperdiet sollicitudin hendrerit. Donec iaculis; turpis sodales feugiat hendrerit; dolor ligula suscipit justo, sit am </p>
+</article>
+</div>
+</div>
+<!-- end content -->
+
+<footer>BEES copyrighted 2010 all rights reserved</footer>
+
+</div> <!-- end container -->
+</container>
+
+</body></html> 
+
+

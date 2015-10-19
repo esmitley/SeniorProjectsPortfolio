@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Life and Liberty Wall</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- LOAD THE LATEST VERSION OF JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+<!-- LAZY LOADER -->
+<script src="jquery.lazyload.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function() {
+	  $("img.lazy").lazyload({threshold: 400, effect: "fadeIn" });
+	   	//I added the class to the image tag to make it only work on these images.
+		// I also added the threashold so the images load before they reach the fold
+		//I also added fadein to have them fadein when loaded
+  });
+</script>
+
+
+<!----- STYLE SHEETS ----->
+<link href="css/reset.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/desktop.css" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+     
+</head>
+<body>
+<div id="colorBar"></div>
+
+<div id="headerWrapper">
+    <header>
+      <div id="form">
+        <form>
+    <input class="text" name="search" type="text" placeholder="Search...">
+    </form>
+  </div>
+    <nav>
+      <ul>
+    <!--	<li class="active" ><a href="#">Contact Us</a></li> --->
+    	<li><a href="#">Home</a></li>
+    	<li><a href="#">What's New</a></li>
+        <li><a href="#">Garden Tales</a></li>
+      </ul>
+  </nav>
+   
+    <div class="keepOpen"></div>
+   
+    </header>
+</div><!-- end headerWrapper-->
+    
+    <!-- page content here -->
+    <div id="contentWrapper">
+    <div id="content">
+    <article>
+<ul>
+  <img src="images/logo.png" alt="logo" width="960" height="267" class="text">
+</ul>
+<h1>In The Pursuit of Life and Liberty</h1> 
+   
+ <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/savage3.png" >
+ <figcaption>John Savage<br>Revolutionary War Soldier</figcaption>
+ </figure>
+ 
+ <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/babbitt.png" >
+ <figcaption>William Henry Babbitt<strong></strong> <br>Queens Guard</figcaption>
+ </figure>
+ 
+ <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/boone.png" >
+ <figcaption>Willis Boone <br>Frontier Fighter</figcaption>
+ </figure>
+ 
+ <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/civilwar.png">
+ <figcaption>
+ Dr. Mary Elizabeth Walker <br>Civil War Surgeon</figcaption>
+ </figure>
+ 
+ <figure>
+ <img src="images/grey.gif" width="1200" height="792" class="lazy" data-original="images/artillery-1862-granger.png">
+ <figcaption>George Washington McCabe  <br>Civil War </figcaption>
+ </figure>
+ 
+ <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/France.png" >
+ <figcaption>WWI <br>Freedom Fighters Who Gave All </figcaption>
+ </figure>
+ 
+  <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/air-carrier.png" >
+ <figcaption>Army, Air Force, and Navy <br>WWII</figcaption>
+ </figure>
+ 
+  <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/greenland.png" >
+ <figcaption>Greenland, US, & Canadian  Air Communications <br>Cold War Era</figcaption>
+ </figure>
+ 
+  <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/tank.png" >
+ <figcaption>European Army Operations<br>Gulf War</figcaption>
+ </figure>
+ 
+  <figure>
+ <img class="lazy" src="images/grey.gif" data-original="images/sub.png" >
+ <figcaption>Pacific Ocean Corridor <br>Underwater Manuevers</figcaption>
+ </figure>
+ 
+ 
+ 
+    </article>
+    </div><!-- end content -->
+    <div class="keepOpen"></div>
+    </div><!-- end contentWrapper -->
+    
+    <div id="footerWrapper">   <footer>
+    <p>&copy; BeesBiz.net &bull; Lazy Loaders</p>
+    </footer>
+    </div><!-- end footerWrapper -->
+  
+</body>
+</html>
