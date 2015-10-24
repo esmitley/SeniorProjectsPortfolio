@@ -1,0 +1,12 @@
+     .container img {
+      margin-bottom: 10px;
+    }
+    
+    #container {
+      width: 800px;
+      overflow: scroll;
+    }
+
+    #inner_container {
+      width: 4750px;
+    }     
